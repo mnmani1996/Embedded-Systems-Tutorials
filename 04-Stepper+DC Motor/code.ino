@@ -17,9 +17,9 @@ int STP_IN3 = 10;
 int STP_IN4 = 11;
 
 // DC Motor
-#define ENA 6   // PWM pin for speed
-#define DC_IN1 12
-#define DC_IN2 13
+#define ENA 5   // PWM pin for speed
+#define DC_IN1 6
+#define DC_IN2 7
 
 // Control variables
 int stpDelay = 2;   // Delay between steps (ms)
